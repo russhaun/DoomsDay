@@ -107,7 +107,3 @@ venv.bak/
 .idea/misc.xml
 .idea/modules.xml
 .idea/vcs.xml
-docker-compose.yml
-docker-compose.yml
-Dockerfile
-docker-compose.yml
