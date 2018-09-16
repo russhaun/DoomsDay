@@ -15,9 +15,9 @@ These files reflect the docker image located @ https://hub.docker.com/r/rhaun72/
 from a docker cmd line in directory containing files:(yes that is a dot at end)
 the rm stuff just removes all interediate containers
 
- docker build -t <reponame>/doomsday --rm=true --force-rm=true  .
+ docker build -t repo_name/doomsday --rm=true --force-rm=true  .
   
  # To run:
  #To run from same cmd line:
  
- docker run -it -p 8080:8888 <reponame>/doomsday
+ docker run -it -p 8080:8888 repo_name/doomsday
